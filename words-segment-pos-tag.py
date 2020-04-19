@@ -118,6 +118,49 @@ def write_file_dict(filename,result):
             writer.writerow({filename:row})
     toc = time.perf_counter() #timer stop
     print(f" in  {toc - tic:0.4f} seconds")
+
+def merge_files_result():
+    print(f"write file ./result/result_v1",end = " ")
+    tic = time.perf_counter() #timer start
+    files_name = ["patong_google","promthep_google","wat_google",\
+        "patong_trip","promthep_trip","wat_trip"]
+    
+    results = []
+
+    for file_name in files_name : 
+        result = read_result_file(file_name)
+        results.append(result)
+    
+
+    with open(f'./result/result_v1.csv', mode='w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=files_name)
+        writer.writeheader()
+        i=0
+        while i < len(results[0]) :
+            writer.writerow({files_name[0]:results[0][i],\
+                files_name[1]:results[1][i],files_name[2]:results[2][i],\
+                files_name[3]:results[3][i],files_name[4]:results[4][i],\
+                files_name[5]:results[5][i]})
+            i+=1
+            
+    toc = time.perf_counter() #timer stop
+    print(f"Success! merge results file ./result/result_v1 in  {toc - tic:0.4f} seconds")
+
+def read_result_file(file_name) : 
+    result = []    
+    tic = time.perf_counter() #timer start
+
+    with open('./result/result_'+file_name+'.csv', mode='r', encoding='utf-8') as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+        for row in csv_reader:
+            result.append(row[file_name])
+
+    toc = time.perf_counter() #timer stop
+    max = len(result)
+    print(f"read {max} result at {file_name}.csv in {toc - tic:0.4f} seconds")
+
+    return result
+
 def main () :
 
     files_name= ["patong_google","promthep_google","wat_google"\
@@ -132,4 +175,5 @@ def main () :
     toc = time.perf_counter() #timer stop
     print(f"Success! Elapsed time: {toc - tic:0.4f} seconds")
 
-main()
+#main()
+merge_files_result()
