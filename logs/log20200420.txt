@@ -1,0 +1,157 @@
+Importing csv in 0.0168 seconds
+Importing tltk in 5.0152 seconds
+Importing pos_tag_sents in 1.3404 seconds
+read 50 comments at patong_google.csv in 0.0008 seconds
+functions word segment :
+10.0% time 5.0691 seconds per 79 words.
+20.0% time 4.4665 seconds per 90 words.
+30.0% time 2.9390 seconds per 55 words.
+40.0% time 4.3585 seconds per 77 words.
+50.0% time 9.2856 seconds per 269 words.
+60.0% time 15.4101 seconds per 464 words.
+70.0% time 9.3308 seconds per 289 words.
+80.0% time 6.6230 seconds per 199 words.
+90.0% time 9.1655 seconds per 260 words.
+100.0% time 11.1979 seconds per 292 words.
+Done! 50 comments in 77.8506 seconds
+function word_postag
+10.0%  0.4307 seconds
+20.0%  0.0036 seconds
+30.0%  0.0036 seconds
+40.0%  0.0030 seconds
+50.0%  0.0144 seconds
+60.0%  0.0231 seconds
+70.0%  0.0187 seconds
+80.0%  0.0110 seconds
+90.0%  0.0108 seconds
+100.0%  0.0134 seconds
+Done! 50 comments in 0.5364 seconds
+write file ./result/result_patong_google  in  0.0068 seco
+read 50 comments at promthep_google.csv in 0.0016 seconds
+functions word segment :
+10.0% time 5.2883 seconds per 162 words.
+20.0% time 8.2349 seconds per 236 words.
+30.0% time 9.3583 seconds per 294 words.
+40.0% time 11.6640 seconds per 279 words.
+50.0% time 10.6735 seconds per 245 words.
+60.0% time 7.0414 seconds per 151 words.
+70.0% time 8.1198 seconds per 214 words.
+80.0% time 10.1116 seconds per 236 words.
+90.0% time 8.7221 seconds per 235 words.
+100.0% time 13.8005 seconds per 357 words.
+Done! 50 comments in 93.0204 seconds
+function word_postag
+10.0%  0.0079 seconds
+20.0%  0.0124 seconds
+30.0%  0.0256 seconds
+40.0%  0.0222 seconds
+50.0%  0.0123 seconds
+60.0%  0.0115 seconds
+70.0%  0.0188 seconds
+80.0%  0.0209 seconds
+90.0%  0.0227 seconds
+100.0%  0.0195 seconds
+Done! 50 comments in 0.2010 seconds
+write file ./result/result_promthep_google  in  0.0099 se
+read 50 comments at wat_google.csv in 0.0018 seconds
+functions word segment :
+10.0% time 5.8543 seconds per 147 words.
+20.0% time 7.1447 seconds per 203 words.
+30.0% time 16.1320 seconds per 395 words.
+40.0% time 15.8426 seconds per 320 words.
+50.0% time 10.8384 seconds per 251 words.
+60.0% time 10.6715 seconds per 258 words.
+70.0% time 9.2620 seconds per 227 words.
+80.0% time 8.2223 seconds per 207 words.
+90.0% time 11.7879 seconds per 269 words.
+100.0% time 14.7420 seconds per 285 words.
+Done! 50 comments in 110.5120 seconds
+function word_postag
+10.0%  0.0085 seconds
+20.0%  0.0091 seconds
+30.0%  0.0275 seconds
+40.0%  0.0722 seconds
+50.0%  0.0979 seconds
+60.0%  0.0346 seconds
+70.0%  0.0126 seconds
+80.0%  0.0163 seconds
+90.0%  0.0306 seconds
+100.0%  0.0422 seconds
+Done! 50 comments in 0.5152 seconds
+write file ./result/result_wat_google  in  0.0056 seconds
+read 50 comments at patong_trip.csv in 0.0022 seconds
+functions word segment :
+10.0% time 8.5479 seconds per 192 words.
+20.0% time 10.7706 seconds per 214 words.
+30.0% time 17.5199 seconds per 258 words.
+40.0% time 15.8742 seconds per 295 words.
+50.0% time 13.1902 seconds per 230 words.
+60.0% time 13.2519 seconds per 272 words.
+70.0% time 10.0510 seconds per 219 words.
+80.0% time 11.2770 seconds per 260 words.
+90.0% time 16.7081 seconds per 407 words.
+100.0% time 13.6222 seconds per 276 words.
+Done! 50 comments in 130.9382 seconds
+function word_postag
+10.0%  0.0134 seconds
+20.0%  0.0162 seconds
+30.0%  0.0475 seconds
+40.0%  0.0246 seconds
+50.0%  0.0185 seconds
+60.0%  0.0186 seconds
+70.0%  0.0420 seconds
+80.0%  0.0177 seconds
+90.0%  0.0505 seconds
+100.0%  0.0279 seconds
+Done! 50 comments in 0.3345 seconds
+write file ./result/result_patong_trip  in  0.0145 second
+read 50 comments at promthep_trip.csv in 0.0010 seconds
+functions word segment :
+10.0% time 15.0978 seconds per 324 words.
+20.0% time 12.5002 seconds per 275 words.
+30.0% time 13.1551 seconds per 281 words.
+40.0% time 9.9920 seconds per 203 words.
+50.0% time 7.9237 seconds per 141 words.
+60.0% time 16.7431 seconds per 383 words.
+70.0% time 14.2673 seconds per 316 words.
+80.0% time 16.2898 seconds per 381 words.
+90.0% time 8.0942 seconds per 191 words.
+100.0% time 20.5210 seconds per 319 words.
+Done! 50 comments in 134.6111 seconds
+function word_postag
+10.0%  0.1023 seconds
+20.0%  0.0464 seconds
+30.0%  0.0411 seconds
+40.0%  0.0286 seconds
+50.0%  0.0123 seconds
+90.0%  0.0195 seconds
+100.0%  0.0390 seconds
+Done! 50 comments in 0.4757 seconds
+write file ./result/result_promthep_trip  in  0.0109 seconds
+read 50 comments at wat_trip.csv in 0.0068 seconds
+functions word segment :
+10.0% time 14.3785 seconds per 256 words.
+20.0% time 8.3625 seconds per 204 words.
+30.0% time 7.2192 seconds per 172 words.
+40.0% time 7.1569 seconds per 184 words.
+50.0% time 7.6620 seconds per 200 words.
+60.0% time 9.5840 seconds per 210 words.
+70.0% time 13.6422 seconds per 275 words.
+80.0% time 20.9612 seconds per 260 words.
+90.0% time 15.0173 seconds per 253 words.
+100.0% time 11.0798 seconds per 203 words.
+Done! 50 comments in 115.0771 seconds
+function word_postag
+10.0%  0.0210 seconds
+20.0%  0.0169 seconds
+30.0%  0.0138 seconds
+40.0%  0.0301 seconds
+50.0%  0.0164 seconds
+60.0%  0.0117 seconds
+70.0%  0.0150 seconds
+80.0%  0.0309 seconds
+90.0%  0.0294 seconds
+100.0%  0.0217 seconds
+Done! 50 comments in 0.2965 seconds
+write file ./result/result_wat_trip  in  0.0041 seconds
+Success! Elapsed time: 664.5041 seconds
