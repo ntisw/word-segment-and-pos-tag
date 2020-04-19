@@ -120,7 +120,7 @@ def write_file_dict(filename,result):
     print(f" in  {toc - tic:0.4f} seconds")
 
 def merge_files_result():
-    print(f"write file ./result/result_v1",end = " ")
+    print(f"Starting... merge files ./result/result_v1",end = " ")
     tic = time.perf_counter() #timer start
     files_name = ["patong_google","promthep_google","wat_google",\
         "patong_trip","promthep_trip","wat_trip"]
@@ -174,6 +174,6 @@ def main () :
         write_file_dict(file_name,result)
     toc = time.perf_counter() #timer stop
     print(f"Success! Elapsed time: {toc - tic:0.4f} seconds")
+    merge_files_result()
 
-#main()
-merge_files_result()
+main()
