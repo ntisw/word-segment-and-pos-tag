@@ -16,7 +16,7 @@ def read_file(file_name) :
 def word_segment(comments) : #using tltk word_segment
     results = []
     max = len(comments)
-    bar = IncrementalBar('Word segment',max = max ,suffix='%(percent)d%%')
+    bar = IncrementalBar('Word segment by tltk',max = max ,suffix='%(percent)d%% %(elapsed_td)s')
     for row in comments:
         
         comment = tltk.nlp.word_segment(row)
@@ -37,24 +37,24 @@ def word_segment(comments) : #using tltk word_segment
         bar.next()
         results.append(sentences)
     bar.finish()
-
+    
     return results
 
 def word_postag(comments) :
     results = []
 
     max = len(comments)
-    print('function word_postag')
+    print('Word postag by pythai . . .',end=" ")
 
     for sentences in comments :
         pos_tag = pos_tag_sents(sentences, corpus='pud')
         results.append(pos_tag)
-
+    print("Done!")
     return results
 
 def write_file(path_file,field,rows) : 
     # writing to csv file  
-    print(f"write file {path_file}",end = " ")
+    print(f"write file {path_file}")
 
     with open(path_file, 'w',newline='',encoding='utf-8') as csvfile:  
         # creating a csv writer object  
@@ -67,7 +67,7 @@ def write_file(path_file,field,rows) :
  
 
 def write_file_dict(filename,result):
-    print(f"write file ./result/result_{filename}",end = " ")
+    print(f"write file ./result/result_{filename}")
  
     with open(f'./result/result_{filename}.csv', mode='w', newline='', encoding='utf-8') as csvfile:
         fieldnames = [filename]
@@ -78,7 +78,7 @@ def write_file_dict(filename,result):
 
 
 def merge_files_result():
-    print(f"Starting... merge files ./result/result_v1",end = " ")
+    print(f"Starting... merge files ./result/result_v1")
     files_name = ["patong_google","promthep_google","wat_google",\
         "patong_trip","promthep_trip","wat_trip"]
     results = []
